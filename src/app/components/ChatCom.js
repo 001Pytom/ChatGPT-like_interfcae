@@ -43,7 +43,7 @@ function ChatCom() {
   };
 
   return (
-    <div className="w-screen h-screen flex">
+    <div className="w-screen min-h-screen flex">
       <Sidebar />
       <div className="bg-white dark:bg-[#212121] dark:text-white w-full flex flex-col justify-between items-center flex-grow">
         <NavBar />
