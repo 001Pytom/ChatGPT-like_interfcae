@@ -13,7 +13,7 @@ function ChatWindow({ messages, isTyping }) {
   return (
     <div
       ref={chatRef}
-      className=" w-full md:w-1/2 h-3/4 bg-white dark:bg-[#212121] p-4  rounded-lg shadow-lg overflow-y-auto "
+      className=" w-full md:w-1/2 h-3/4  bg-white dark:bg-[#212121] p-4  rounded-lg shadow-lg overflow-y-auto "
     >
       {messages.length === 0 && <FIrstDisplay />}
 

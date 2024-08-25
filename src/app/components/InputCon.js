@@ -11,7 +11,7 @@ export default function InputCon({ onSend }) {
   };
 
   return (
-    <div className="w-full max-w-[60%] p-1 flex items-center">
+    <div className="w-full sm:max-w-[60%] p-1 flex items-center ">
       <input
         type="text"
         value={message}
