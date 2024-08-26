@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useState } from "react";
 import { FaTimes, FaBars, FaRobot } from "react-icons/fa";
 import { RiRobot3Line } from "react-icons/ri";
@@ -29,11 +30,11 @@ function Sidebar() {
         <div>
           <div className="flex items-center gap-3 py-5">
             <FaRobot className="text-3xl" />
-            <span>ChatGPT</span>
+            <Link href="#">ChatGPT</Link>
           </div>
           <div className="flex items-center gap-3 py-5">
             <RiRobot3Line className="text-3xl" />
-            <span>Code Pilot</span>
+            <Link href="#">Code Pilot</Link>
           </div>
         </div>
       )}
